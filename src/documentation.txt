@@ -1,0 +1,32 @@
+Goal: To Build a School Management System (Trivial)
+Features:
+Maintaining students, teachers and funds
+
+Money Management System
+Could it be in form of school fees
+What money and how should it be managed
+    Keep a track of
+        Student Visas
+        Student Total Fees
+        Student Fees Paid
+        Student
+
+The School Contains:
+    Students
+    Teachers
+    Total Money Earned
+    Total Money Spent -- Teachers Salary
+
+
+Teacher:
+    Teacher Id -- (Unique Reference)
+    Name
+    Salary
+
+
+Student
+    Student Id
+    Name
+    Grade
+    Fees Paid
+    Fees Total
