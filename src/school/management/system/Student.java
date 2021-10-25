@@ -46,7 +46,7 @@ public class Student {
 
     /**
      * It is used to set the grade
-     * @param grade ne grade of student entered
+     * @param grade new grade of student entered
      */
     public void setGrade(int grade){
         this.grade = grade;
@@ -54,11 +54,32 @@ public class Student {
     }
 
     public int getGrade(){
-        return grade
+        return grade;
     }
 
-    public void update(){
+    /**
+     * School stores the cummulative amount of fees paid by student
+     * @param fees money paid by students
+     */
+
+    public void updateFeesPaid(int fees){
+        feesPaid+=fees;
 
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getFeesPaid() {
+        return feesPaid;
+    }
+
+    public int getTotalFees() {
+        return totalFees;
+    }
 }
